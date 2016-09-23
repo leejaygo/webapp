@@ -1,0 +1,26 @@
+{
+  "name": "webpacktest",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch",
+    "dev": "webpack-dev-server --devtool eval --progress --colors --content-base ./vendor/pages",
+    "devsever": "webpack-dev-server --inline"
+
+  },
+  "author": "lijiezhou",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "expose-loader": "^0.7.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "jquery": "^1.12.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
